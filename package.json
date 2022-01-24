@@ -9,10 +9,7 @@
     "server": "cd server nodemon server.js --ignore client",
     "build": "cd client && npm run build",
     "install": "cd client && npm install",
-    "client": "cd client && npm start",
-    "heroku-prebuild": "npm run build:client && npm run build:server",
-    "build:client": "cd client && npm i",
-    "build:server": "cd server && npm i"
+    "client": "cd client && npm start"
   },
   "keywords": [],
   "author": "",
